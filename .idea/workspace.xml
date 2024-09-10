@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b92b937-4fa0-4c9f-b1f7-7c83b3f60e42" name="Changes" comment="- Subindo Aula 01">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="1b92b937-4fa0-4c9f-b1f7-7c83b3f60e42" name="Changes" comment="- Adicionando gitignore na raiz do projeto" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +87,7 @@
       <workItem from="1725987156663" duration="1188000" />
       <workItem from="1725988364291" duration="3114000" />
       <workItem from="1725991521866" duration="10910000" />
-      <workItem from="1726009893229" duration="704000" />
+      <workItem from="1726009893229" duration="1001000" />
     </task>
     <task id="LOCAL-00001" summary="- Subindo conteudo da Aula 1&#10;- Adicionada a pasta node_modules no gitignore">
       <option name="closed" value="true" />
@@ -115,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726010384334</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Adicionando gitignore na raiz do projeto">
+      <option name="closed" value="true" />
+      <created>1726010651018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726010651018</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Adicionando gitignore na raiz do projeto">
+      <option name="closed" value="true" />
+      <created>1726010855096</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726010855096</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +139,7 @@
     <MESSAGE value="- Subindo conteudo da Aula 1&#10;- Adicionada a pasta node_modules no gitignore" />
     <MESSAGE value="- Subindo Dependencias" />
     <MESSAGE value="- Subindo Aula 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Subindo Aula 01" />
+    <MESSAGE value="- Adicionando gitignore na raiz do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Adicionando gitignore na raiz do projeto" />
   </component>
 </project>
