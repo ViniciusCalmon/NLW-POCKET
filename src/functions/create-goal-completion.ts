@@ -13,7 +13,7 @@ export async function createGoalCompletion({
   const firstDayOfWeek = dayjs().startOf("week").toDate();
   const lastDayOfWeek = dayjs().endOf("week").toDate();
 
-  const goalCompletionCounts = db.$with("goal_completion_counts").as(
+  const goalsCompletionCounts = db.$with("goal_completion_counts").as(
     db
       .select({
         goalId: goalCompletions.goalId,
@@ -30,16 +30,16 @@ export async function createGoalCompletion({
       .groupBy(goalCompletions.goalId),
   );
   const result = await db
-    .with(goalCompletionCounts)
+    .with(goalsCompletionCounts)
     .select({
       desiredWeeklyFrequency: goals.desiredWeeklyFrequency,
       completionCount:
-        sql`COALESCE(${goalCompletionCounts.completionCount}, 0)`.mapWith(
+        sql`COALESCE(${goalsCompletionCounts.completionCount}, 0)`.mapWith(
           Number,
         ),
     })
     .from(goals)
-    .leftJoin(goalCompletionCounts, eq(goalCompletionCounts.goalId, goals.id))
+    .leftJoin(goalsCompletionCounts, eq(goalsCompletionCounts.goalId, goals.id))
     .where(eq(goals.id, goalId))
     .limit(1);
 
