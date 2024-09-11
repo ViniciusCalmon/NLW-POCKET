@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1b92b937-4fa0-4c9f-b1f7-7c83b3f60e42" name="Changes" comment="Aula 2 - Parte 1&#10;- Adicionada a dependencia fastify cors&#10;- Adicionado um app register de qualquer origem no server.ts">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/240e0941-f6cc-471b-87c4-8c8978a896c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/240e0941-f6cc-471b-87c4-8c8978a896c3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/240e0941-f6cc-471b-87c4-8c8978a896c3/storage_v2/_src_/database/inorbit.ReJ0dA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/240e0941-f6cc-471b-87c4-8c8978a896c3/storage_v2/_src_/database/inorbit.ReJ0dA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/http/server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vinic/Documents/Rocketseat/nlw_pocket_javascript&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vinic/Documents/Rocketseat/Clone_BackEnd/nlw-pocket-js-node&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -99,7 +98,8 @@
       <workItem from="1726019973085" duration="137000" />
       <workItem from="1726020118387" duration="197000" />
       <workItem from="1726020323788" duration="390000" />
-      <workItem from="1726064805054" duration="898000" />
+      <workItem from="1726064805054" duration="7871000" />
+      <workItem from="1726076259553" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="- Subindo conteudo da Aula 1&#10;- Adicionada a pasta node_modules no gitignore">
       <option name="closed" value="true" />
@@ -149,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726020433765</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Aula 2 - Parte 1&#10;- Adicionada a dependencia fastify cors&#10;- Adicionado um app register de qualquer origem no server.ts">
+      <option name="closed" value="true" />
+      <created>1726065762326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726065762326</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
