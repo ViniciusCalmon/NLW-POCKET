@@ -1,5 +1,5 @@
 {
-  "id": "deabc2e9-1f70-4712-9a34-4e9b783e1c4e",
+  "id": "bd4c511b-09c4-41b7-a657-cd1a70bf6399",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -18,7 +18,7 @@
           "name": "title",
           "type": "text",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "desired_weekly_frequency": {
           "name": "desired_weekly_frequency",
